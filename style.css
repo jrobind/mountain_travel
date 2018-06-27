@@ -1,0 +1,36 @@
+/* resets */
+
+html, body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+/* banner */
+
+.banner {
+    height: 100vh;
+    background-color: lightgrey;
+    background: url('./images/hero_image.jpg') center / cover no-repeat;
+}
+
+/* nav */
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+ .navbar, .navbar ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar  ul {
+    padding: 15px;
+    width: 40%;
+}
