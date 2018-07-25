@@ -1,0 +1,21 @@
+/* resets */
+html, body, ul {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none; }
+
+body {
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif; }
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 1fr 1fr 1fr;
+  grid-template-areas: "header header header" "section section section" "footer footer footer"; }
+
+header {
+  grid-area: header;
+  background-color: lightgrey;
+  background: url("../images/hero_image.jpg") center/cover no-repeat; }
